@@ -35,6 +35,9 @@ class Ui_Form(object):
         self.label.setText("")
         self.label.setPixmap(QtGui.QPixmap("DSC2943_by_kcpru.jpg"))
         self.label.setObjectName("label")
+        self.exitButton = QtWidgets.QPushButton(Form)
+        self.exitButton.setGeometry(QtCore.QRect(460, 580, 91, 41))
+        self.exitButton.setObjectName("exitButton")
 
         self.retranslateUi(Form)
         QtCore.QMetaObject.connectSlotsByName(Form)
@@ -58,4 +61,5 @@ class Ui_Form(object):
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Ubuntu\'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">用户名</p></body></html>"))
+        self.exitButton.setText(_translate("Form", "退出"))
 

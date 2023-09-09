@@ -113,6 +113,19 @@ p, li { white-space: pre-wrap; }
     <pixmap>DSC2943_by_kcpru.jpg</pixmap>
    </property>
   </widget>
+  <widget class="QPushButton" name="exitButton">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>580</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>

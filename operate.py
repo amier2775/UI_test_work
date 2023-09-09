@@ -67,6 +67,9 @@ class Ui_Form(object):
         self.tableWidget.setItem(2, 2, item)
         item = QtWidgets.QTableWidgetItem()
         self.tableWidget.setItem(2, 3, item)
+        self.exitButton = QtWidgets.QPushButton(Form)
+        self.exitButton.setGeometry(QtCore.QRect(340, 530, 89, 25))
+        self.exitButton.setObjectName("exitButton")
 
         self.retranslateUi(Form)
         QtCore.QMetaObject.connectSlotsByName(Form)
@@ -118,4 +121,5 @@ class Ui_Form(object):
         item = self.tableWidget.item(2, 3)
         item.setText(_translate("Form", "厦门北站"))
         self.tableWidget.setSortingEnabled(__sortingEnabled)
+        self.exitButton.setText(_translate("Form", "退出"))
 
